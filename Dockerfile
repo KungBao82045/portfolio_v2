@@ -48,4 +48,4 @@ COPY . .
 EXPOSE 8091
 
 # Run the application.
-CMD python test.py
+CMD ["uvicorn", "test:app", "--reload", "--port", "8091"]
