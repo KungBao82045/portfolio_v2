@@ -48,4 +48,4 @@ COPY . .
 EXPOSE 8091
 
 # Run the application.
-CMD ["uvicorn", "test:app", "--reload", "--port", "8091"]
+CMD ["uvicorn", "create_api:app", "--reload", "--host", "0.0.0.0", "--port", "8091"]
