@@ -28,4 +28,4 @@ jobs:
 
       - name: Python Run
         run: |
-          python api_fetcher\get_api.py
+          python api_fetcher/get_api.py
